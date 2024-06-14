@@ -7,9 +7,14 @@
 </head>
 <body>
 
-    <form>
+    <form onsubmit="return calcular(event)">
         <label> Digite seu peso:</label> <br/>
-        <input type="text" id="peso" name="peso" placeholder="65kg"> <br/><br/>
+        <input type="text" id="peso" name="peso" placeholder="65"> <br/><br/>
+
+        <label> Digite sua altura:</label> <br/>
+        <input type="text" id="altura" name="altura" placeholder="1.90"> <br/><br/>
+
+        <input type="submit" value="Calcular IMC">
         
     </form>
 
